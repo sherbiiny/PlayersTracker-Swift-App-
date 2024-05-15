@@ -9,11 +9,24 @@ import SwiftUI
 import SwiftData
 
 struct PlayersListView: View {
+    @Environment(\.modelContext) var modelContext
     @Query var players: [Player]
     
     var body: some View {
-        List(players) { player in
-            Text(player.name)
+        List {
+            ForEach(players) { player in
+                NavigationLink(value: player) {
+                    Text(player.name)
+                }
+            }
+            .onDelete(perform: deletePlayer)
+        }
+    }
+    
+    func deletePlayer(at offsets: IndexSet) {
+        for offset in offsets {
+            let person = players[offset]
+            modelContext.delete(person)
         }
     }
 }
