@@ -15,6 +15,8 @@
 		48ACC8A12BF4C161005FC91C /* UsersSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ACC8A02BF4C161005FC91C /* UsersSystemUITests.swift */; };
 		48ACC8A32BF4C161005FC91C /* UsersSystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ACC8A22BF4C161005FC91C /* UsersSystemUITestsLaunchTests.swift */; };
 		48ACC8B22BF4C4C1005FC91C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ACC8B12BF4C4C1005FC91C /* Player.swift */; };
+		48ACC8B42BF4D2B6005FC91C /* PlayersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ACC8B32BF4D2B6005FC91C /* PlayersListView.swift */; };
+		48ACC8B62BF4D664005FC91C /* EditPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ACC8B52BF4D664005FC91C /* EditPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		48ACC8A02BF4C161005FC91C /* UsersSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersSystemUITests.swift; sourceTree = "<group>"; };
 		48ACC8A22BF4C161005FC91C /* UsersSystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersSystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		48ACC8B12BF4C4C1005FC91C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		48ACC8B32BF4D2B6005FC91C /* PlayersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersListView.swift; sourceTree = "<group>"; };
+		48ACC8B52BF4D664005FC91C /* EditPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				48ACC8892BF4C161005FC91C /* Assets.xcassets */,
 				48ACC88B2BF4C161005FC91C /* Preview Content */,
 				48ACC8B12BF4C4C1005FC91C /* Player.swift */,
+				48ACC8B32BF4D2B6005FC91C /* PlayersListView.swift */,
+				48ACC8B52BF4D664005FC91C /* EditPlayerView.swift */,
 			);
 			path = UsersSystem;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			files = (
 				48ACC8882BF4C15D005FC91C /* ContentView.swift in Sources */,
 				48ACC8B22BF4C4C1005FC91C /* Player.swift in Sources */,
+				48ACC8B62BF4D664005FC91C /* EditPlayerView.swift in Sources */,
 				48ACC8862BF4C15D005FC91C /* UsersSystemApp.swift in Sources */,
+				48ACC8B42BF4D2B6005FC91C /* PlayersListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +436,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UsersSystem/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Players \U0010Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,6 +465,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UsersSystem/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Players \U0010Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

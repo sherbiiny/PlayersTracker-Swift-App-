@@ -18,7 +18,9 @@ class Player {
         self.score = score
     }
     
-    func shoot() {
-        print("Watchout!! \(name) is shooting")
-    }
+//    func shoot() -> Int {
+//        let res = Int.random(in: 0...1)
+//        self.score += res
+//        return res
+//    }
 }
